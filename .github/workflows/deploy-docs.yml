@@ -28,10 +28,6 @@ jobs:
           sudo cp doxygen-1.17.0/bin/doxygen /usr/local/bin/
           doxygen --version
 
-      - name: Generate documentation
-        working-directory: ../../../
-        run: doxygen Doxyfile
-
       - name: Add .nojekyll
         run: touch ./docs/html/.nojekyll
 
