@@ -27,16 +27,12 @@ mermaid.initialize({ startOnLoad: true, theme: theme });
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
 <link href="custom.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen.css" rel="stylesheet" type="text/css" />
-<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
-<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
-<link href="custom.css" rel="stylesheet" type="text/css"/>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
 <script type="text/javascript">
     DoxygenAwesomeDarkModeToggle.init()
 </script>
+<script type="text/javascript" src="image-compare.js"></script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -134,7 +130,34 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('kuwahara_intro
   <div class="headertitle"><div class="title">Introduction </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><b>Kuwahara Filter</b> is a customizable post-processing effect that turns your scene into a painterly, oil-paint-like render. It works with both the <b>Built-In Render Pipeline</b> and <b>URP</b> (Universal Render Pipeline), including full support for the Render Graph API introduced in newer URP versions.</p>
+<div class="textblock"><h2>Classic Kuwahara Comparison</h2>
+<p> 
+<div class="img-compare-container" id="slider-classic">
+  <div class="img-compare-before">
+    <img src="tex_classic_kuwahara_example.png" alt="Classic Kuwahara">
+  </div>
+  <div class="img-compare-after">
+    <img src="tex_original_kuwahara_example.png" alt="Original">
+  </div>
+  <div class="img-compare-line"></div>
+  <input type="range" min="0" max="100" value="50" class="img-compare-slider">
+</div>
+</p>
+<h2>Anisotropic Kuwahara Comparison</h2>
+<p> 
+<div class="img-compare-container" id="slider-classic">
+  <div class="img-compare-before">
+    <img src="tex_anisotropic_kuwahara_example.png" alt="Anisotropic Kuwahara">
+  </div>
+  <div class="img-compare-after">
+    <img src="tex_original_kuwahara_example.png" alt="Original">
+  </div>
+  <div class="img-compare-line"></div>
+  <input type="range" min="0" max="100" value="50" class="img-compare-slider">
+</div>
+</p>
+<h2>Package description</h2>
+<p><b>Kuwahara Filter</b> is a customizable post-processing effect that turns your scene into a painterly, oil-paint-like render. It works with both the <b>Built-In Render Pipeline</b> and <b>URP</b> (Universal Render Pipeline), including full support for the Render Graph API introduced in newer URP versions.</p>
 <h2>Two painting styles</h2>
 <p>The effect offers two distinct stylization modes, controlled by <a class="el" href="group__kuwahara__classes.html#ga284141e36b8fe1399861648b50deeac2" title="Leadwort.Kuwahara.Runtime.Core.KuwaharaFilterType">KuwaharaFilterType</a>:</p>
 <ul>
