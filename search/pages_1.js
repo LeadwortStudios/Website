@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['filter_0',['Kuwahara Filter',['../kuwahara_page.html',1,'index']]]
+  ['documentation_0',['Leadwort Studios Documentation',['../index.html',1,'']]]
 ];

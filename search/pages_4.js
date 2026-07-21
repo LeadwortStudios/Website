@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kuwahara_20filter_0',['Kuwahara Filter',['../kuwahara_page.html',1,'index']]]
+  ['introduction_0',['Introduction',['../kuwahara_intro.html',1,'kuwahara_page']]]
 ];
