@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "Leadwort Studios", "index.html", [
+  [ "My Project", "index.html", [
     [ "Leadwort Studios Documentation", "index.html", "index" ]
   ] ]
 ];
