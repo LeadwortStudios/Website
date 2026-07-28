@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['getting_20started_0',['Getting Started',['../kuwahara_getting_started.html',1,'kuwahara_intro']]]
+  ['leadwort_20studios_20documentation_0',['Leadwort Studios Documentation',['../index.html',1,'']]]
 ];

@@ -7,6 +7,7 @@
 <meta name="generator" content="Doxygen 1.17.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>Leadwort Studios: Introduction</title>
+<link rel="icon" href="tex_icon_1024.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="codefolding.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
@@ -40,7 +41,7 @@ mermaid.initialize({ startOnLoad: true, theme: theme });
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="tex_leadwort_logo.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="tex_icon_1024.png"/></td>
   <td id="projectalign">
    <div id="projectname">Leadwort Studios
    </div>
@@ -159,10 +160,10 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('kuwahara_intro
 <h2>Package description</h2>
 <p><b>Kuwahara Filter</b> is a customizable post-processing effect that turns your scene into a painterly, oil-paint-like render. It works with both the <b>Built-In Render Pipeline</b> and <b>URP</b> (Universal Render Pipeline), including full support for the Render Graph API introduced in newer URP versions.</p>
 <h2>Two painting styles</h2>
-<p>The effect offers two distinct stylization modes, controlled by <a class="el" href="group__kuwahara__classes.html#ga284141e36b8fe1399861648b50deeac2" title="Leadwort.Kuwahara.Runtime.Core.KuwaharaFilterType">KuwaharaFilterType</a>:</p>
+<p>The effect offers two distinct stylization modes, controlled by KuwaharaFilterType:</p>
 <ul>
-<li><b>Classic</b> - a blocky, uniform oil-paint look based on the traditional Kuwahara filter. Fast to render and great for a simplified, retro painterly style. Configured through <a class="el" href="struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_classic_kuwahara_settings.html" title="Leadwort.Kuwahara.Runtime.Core.ClassicKuwaharaSettings">ClassicKuwaharaSettings</a>.</li>
-<li><b>Anisotropic</b> - a more advanced, edge-aware style where brush strokes dynamically bend and flow along the contours of your 3D models, producing more organic, hand-painted results. Configured through <a class="el" href="struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html" title="Leadwort.Kuwahara.Runtime.Core.AnisotropicKuwaharaSettings">AnisotropicKuwaharaSettings</a>.</li>
+<li><b>Classic</b> - a blocky, uniform oil-paint look based on the traditional Kuwahara filter. Fast to render and great for a simplified, retro painterly style. Configured through ClassicKuwaharaSettings.</li>
+<li><b>Anisotropic</b> - a more advanced, edge-aware style where brush strokes dynamically bend and flow along the contours of your 3D models, producing more organic, hand-painted results. Configured through AnisotropicKuwaharaSettings.</li>
 </ul>
 <p>The Anisotropic style computes a <b>tensor field</b> (edge orientation and anisotropy) each frame, either via a compute shader (when supported by the platform) or a fragment-shader fallback, so the effect works consistently across a wide range of hardware.</p>
 <h2>Where it lives in your project</h2>
