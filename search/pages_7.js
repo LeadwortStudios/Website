@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['started_0',['Getting Started',['../kuwahara_getting_started.html',1,'kuwahara_intro']]],
-  ['studios_20documentation_1',['Leadwort Studios Documentation',['../index.html',1,'']]]
+  ['started_0',['Started',['../md__d_1_2_leadwort_01_studios_2_leadwort_01_watercolor_2_assets_2com_8leadwortstudios_8watercolo70c344847ec9d5ae4b4e95ca6de5c6db.html',1,'Getting Started'],['../kuwahara_getting_started.html',1,'Getting Started'],['../watercolor_getting_started.html',1,'Getting Started']]]
 ];

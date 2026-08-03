@@ -38,6 +38,13 @@ html {
     width: 50%;
 }
 
+.img-compare-after img {
+    display: block;
+    max-width: none !important;
+    height: 100%;
+    object-fit: cover;
+}
+
 .img-compare-slider {
     position: absolute !important;
     top: 50% !important;

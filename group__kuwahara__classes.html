@@ -6,7 +6,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.17.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Leadwort Studios: Classes</title>
+<title>Leadwort Studios</title>
+<link rel="icon" href="tex_icon_1024.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="codefolding.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
@@ -33,6 +34,30 @@ mermaid.initialize({ startOnLoad: true, theme: theme });
     DoxygenAwesomeDarkModeToggle.init()
 </script>
 <script type="text/javascript" src="image-compare.js"></script>
+<!-- Runtime NavTree Pruning Patch -->
+<script type="text/javascript">
+$(document).ready(function() {
+    var pruneRogueNodes = function() {
+        // Target only the immediate children of the main root sub-list
+        // Structure: #nav-tree-contents -> ul (Root) -> li (Project) -> ul (Main List) -> li (Nodes)
+        $("#nav-tree-contents > ul > li > ul > li").each(function() {
+            var nodeText = $(this).find('a').first().text().trim();
+            if (nodeText === "Changelog" || nodeText === "Getting Started") {
+                $(this).remove();
+            }
+        });
+    };
+    var targetTree = document.getElementById('nav-tree-contents');
+    if (targetTree) {
+        // Observe DOM modifications since Doxygen builds the tree asynchronously
+        var treeObserver = new MutationObserver(function(mutations) {
+            pruneRogueNodes();
+        });
+        treeObserver.observe(targetTree, { childList: true, subtree: true });
+        pruneRogueNodes();
+    }
+});
+</script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -40,9 +65,9 @@ mermaid.initialize({ startOnLoad: true, theme: theme });
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="tex_leadwort_logo.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="tex_leadwortstudios_logo_brand.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Leadwort Studios
+   <div id="projectname">
    </div>
   </td>
  </tr>
@@ -142,9 +167,7 @@ Classes</h2></td></tr>
 <tr class="memitem:Leadwort_2EKuwahara_2ERuntime_2ECore_2EAnisotropicKuwaharaSettings" id="r_Leadwort_2EKuwahara_2ERuntime_2ECore_2EAnisotropicKuwaharaSettings"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html">Leadwort.Kuwahara.Runtime.Core.AnisotropicKuwaharaSettings</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Artist controls for the advanced directional filter. Strokes will actively bend and follow the geometry in your scene.  <a href="struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Leadwort_2EKuwahara_2ERuntime_2EURP_2EKuwaharaPostProcessFeature" id="r_Leadwort_2EKuwahara_2ERuntime_2EURP_2EKuwaharaPostProcessFeature"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_leadwort_1_1_kuwahara_1_1_runtime_1_1_u_r_p_1_1_kuwahara_post_process_feature.html">Leadwort.Kuwahara.Runtime.URP.KuwaharaPostProcessFeature</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add this feature to your Universal Renderer Data to enable the <a class="el" href="namespace_leadwort_1_1_kuwahara.html">Kuwahara</a> painting effect. This script is for <a class="el" href="namespace_leadwort_1_1_kuwahara_1_1_runtime_1_1_u_r_p.html">URP</a> Compatibility Mode (Unity 2022 and older).  <a href="class_leadwort_1_1_kuwahara_1_1_runtime_1_1_u_r_p_1_1_kuwahara_post_process_feature.html#details">More...</a><br /></td></tr>
-<tr class="memitem:Leadwort_2EKuwahara_2ERuntime_2EURP_2EKuwaharaPostProcessFeatureRG" id="r_Leadwort_2EKuwahara_2ERuntime_2EURP_2EKuwaharaPostProcessFeatureRG"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_leadwort_1_1_kuwahara_1_1_runtime_1_1_u_r_p_1_1_kuwahara_post_process_feature_r_g.html">Leadwort.Kuwahara.Runtime.URP.KuwaharaPostProcessFeatureRG</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add this feature to your Universal Renderer Data to enable the <a class="el" href="namespace_leadwort_1_1_kuwahara.html">Kuwahara</a> painting effect. This script automatically utilizes Unity's modern Render Graph system (Unity 6 / <a class="el" href="namespace_leadwort_1_1_kuwahara_1_1_runtime_1_1_u_r_p.html">URP</a> 17+).  <a href="class_leadwort_1_1_kuwahara_1_1_runtime_1_1_u_r_p_1_1_kuwahara_post_process_feature_r_g.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add this feature to your Universal Renderer Data to enable the <a class="el" href="namespace_leadwort_1_1_kuwahara.html">Kuwahara</a> painting effect. This script automatically utilizes Unity's modern Render Graph system (Unity 6 / <a class="el" href="namespace_leadwort_1_1_kuwahara_1_1_runtime_1_1_u_r_p.html">URP</a> 17+).  <a href="class_leadwort_1_1_kuwahara_1_1_runtime_1_1_u_r_p_1_1_kuwahara_post_process_feature.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>

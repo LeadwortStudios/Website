@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['half_0',['Half',['../group__kuwahara__classes.html#gga0bd2e08155ecd6113709ec4edb43a9c2ac48615a1bc4197056d522af276aa5a85',1,'Leadwort.Kuwahara.Runtime.Core.Half'],['../group__kuwahara__classes.html#gga081cebc5d2357f598cb5a944f460724eac48615a1bc4197056d522af276aa5a85',1,'Leadwort.Kuwahara.Runtime.Core.Half']]]
+  ['expand_0',['Expand',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#a7d56199a15475f6b19513fbfa294da55a8098b34f582537833b36b58273c3545b',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]]
 ];

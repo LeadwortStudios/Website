@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['introduction_0',['Introduction',['../kuwahara_intro.html',1,'kuwahara_page']]]
+  ['image_20processor_20tool_0',['Watercolor Image Processor Tool',['../watercolor_page.html',1,'index']]],
+  ['introduction_1',['Introduction',['../kuwahara_intro.html',1,'Introduction'],['../watercolor_intro.html',1,'Introduction']]]
 ];

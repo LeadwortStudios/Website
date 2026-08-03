@@ -8,5 +8,13 @@ var searchData=
   ['leadwort_3a_3akuwahara_3a_3aruntime_5',['Runtime',['../namespace_leadwort_1_1_kuwahara_1_1_runtime.html',1,'Leadwort::Kuwahara']]],
   ['leadwort_3a_3akuwahara_3a_3aruntime_3a_3abuiltin_6',['BuiltIn',['../namespace_leadwort_1_1_kuwahara_1_1_runtime_1_1_built_in.html',1,'Leadwort::Kuwahara::Runtime']]],
   ['leadwort_3a_3akuwahara_3a_3aruntime_3a_3acore_7',['Core',['../namespace_leadwort_1_1_kuwahara_1_1_runtime_1_1_core.html',1,'Leadwort::Kuwahara::Runtime']]],
-  ['leadwort_3a_3akuwahara_3a_3aruntime_3a_3aurp_8',['URP',['../namespace_leadwort_1_1_kuwahara_1_1_runtime_1_1_u_r_p.html',1,'Leadwort::Kuwahara::Runtime']]]
+  ['leadwort_3a_3akuwahara_3a_3aruntime_3a_3aurp_8',['URP',['../namespace_leadwort_1_1_kuwahara_1_1_runtime_1_1_u_r_p.html',1,'Leadwort::Kuwahara::Runtime']]],
+  ['leadwort_3a_3awatercolor_9',['Watercolor',['../namespace_leadwort_1_1_watercolor.html',1,'Leadwort']]],
+  ['leadwort_3a_3awatercolor_3a_3aeditor_10',['Editor',['../namespace_leadwort_1_1_watercolor_1_1_editor.html',1,'Leadwort::Watercolor']]],
+  ['leadwort_3a_3awatercolor_3a_3aeditor_3a_3atests_11',['Tests',['../namespace_leadwort_1_1_watercolor_1_1_editor_1_1_tests.html',1,'Leadwort::Watercolor::Editor']]],
+  ['leadwort_3a_3awatercolor_3a_3aruntime_12',['Runtime',['../namespace_leadwort_1_1_watercolor_1_1_runtime.html',1,'Leadwort::Watercolor']]],
+  ['leadwort_3a_3awatercolor_3a_3aruntime_3a_3acore_13',['Core',['../namespace_leadwort_1_1_watercolor_1_1_runtime_1_1_core.html',1,'Leadwort::Watercolor::Runtime']]],
+  ['leadwortstudios_14',['LeadwortStudios',['../namespace_leadwort_studios.html',1,'']]],
+  ['leadwortstudios_3a_3awatercolor_15',['Watercolor',['../namespace_leadwort_studios_1_1_watercolor.html',1,'LeadwortStudios']]],
+  ['leadwortstudios_3a_3awatercolor_3a_3aeditor_16',['Editor',['../namespace_leadwort_studios_1_1_watercolor_1_1_editor.html',1,'LeadwortStudios::Watercolor']]]
 ];

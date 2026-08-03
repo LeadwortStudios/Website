@@ -6,7 +6,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.17.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Leadwort Studios: Leadwort.Kuwahara.Editor.BuiltIn Namespace Reference</title>
+<title>Leadwort Studios</title>
+<link rel="icon" href="tex_icon_1024.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="codefolding.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
@@ -33,6 +34,30 @@ mermaid.initialize({ startOnLoad: true, theme: theme });
     DoxygenAwesomeDarkModeToggle.init()
 </script>
 <script type="text/javascript" src="image-compare.js"></script>
+<!-- Runtime NavTree Pruning Patch -->
+<script type="text/javascript">
+$(document).ready(function() {
+    var pruneRogueNodes = function() {
+        // Target only the immediate children of the main root sub-list
+        // Structure: #nav-tree-contents -> ul (Root) -> li (Project) -> ul (Main List) -> li (Nodes)
+        $("#nav-tree-contents > ul > li > ul > li").each(function() {
+            var nodeText = $(this).find('a').first().text().trim();
+            if (nodeText === "Changelog" || nodeText === "Getting Started") {
+                $(this).remove();
+            }
+        });
+    };
+    var targetTree = document.getElementById('nav-tree-contents');
+    if (targetTree) {
+        // Observe DOM modifications since Doxygen builds the tree asynchronously
+        var treeObserver = new MutationObserver(function(mutations) {
+            pruneRogueNodes();
+        });
+        treeObserver.observe(targetTree, { childList: true, subtree: true });
+        pruneRogueNodes();
+    }
+});
+</script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -40,9 +65,9 @@ mermaid.initialize({ startOnLoad: true, theme: theme });
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="tex_leadwort_logo.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="tex_leadwortstudios_logo_brand.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Leadwort Studios
+   <div id="projectname">
    </div>
   </td>
  </tr>

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.17.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Introduction</title>
+<title>Leadwort Studios</title>
 <link rel="icon" href="tex_icon_1024.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="codefolding.js"></script>
@@ -34,6 +34,30 @@ mermaid.initialize({ startOnLoad: true, theme: theme });
     DoxygenAwesomeDarkModeToggle.init()
 </script>
 <script type="text/javascript" src="image-compare.js"></script>
+<!-- Runtime NavTree Pruning Patch -->
+<script type="text/javascript">
+$(document).ready(function() {
+    var pruneRogueNodes = function() {
+        // Target only the immediate children of the main root sub-list
+        // Structure: #nav-tree-contents -> ul (Root) -> li (Project) -> ul (Main List) -> li (Nodes)
+        $("#nav-tree-contents > ul > li > ul > li").each(function() {
+            var nodeText = $(this).find('a').first().text().trim();
+            if (nodeText === "Changelog" || nodeText === "Getting Started") {
+                $(this).remove();
+            }
+        });
+    };
+    var targetTree = document.getElementById('nav-tree-contents');
+    if (targetTree) {
+        // Observe DOM modifications since Doxygen builds the tree asynchronously
+        var treeObserver = new MutationObserver(function(mutations) {
+            pruneRogueNodes();
+        });
+        treeObserver.observe(targetTree, { childList: true, subtree: true });
+        pruneRogueNodes();
+    }
+});
+</script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -43,7 +67,7 @@ mermaid.initialize({ startOnLoad: true, theme: theme });
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="tex_leadwortstudios_logo_brand.png"/></td>
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">
    </div>
   </td>
  </tr>
@@ -133,7 +157,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('kuwahara_intro
 <div class="contents">
 <div class="textblock"><h2>Classic Kuwahara Comparison</h2>
 <p> 
-<div class="img-compare-container" id="slider-classic">
+<div class="img-compare-container" id="slider-kuwahara-classic">
   <div class="img-compare-before">
     <img src="tex_classic_kuwahara_example_4.png" alt="Classic Kuwahara">
   </div>
@@ -146,7 +170,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('kuwahara_intro
 </p>
 <h2>Anisotropic Kuwahara Comparison</h2>
 <p> 
-<div class="img-compare-container" id="slider-classic">
+<div class="img-compare-container" id="slider-kuwahara-anisotropic">
   <div class="img-compare-before">
     <img src="tex_anisotropic_kuwahara_example_5.png" alt="Anisotropic Kuwahara">
   </div>
@@ -160,10 +184,10 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('kuwahara_intro
 <h2>Package description</h2>
 <p><b>Kuwahara Filter</b> is a customizable post-processing effect that turns your scene into a painterly, oil-paint-like render. It works with both the <b>Built-In Render Pipeline</b> and <b>URP</b> (Universal Render Pipeline), including full support for the Render Graph API introduced in newer URP versions.</p>
 <h2>Two painting styles</h2>
-<p>The effect offers two distinct stylization modes, controlled by KuwaharaFilterType:</p>
+<p>The effect offers two distinct stylization modes, controlled by <a class="el" href="group__kuwahara__classes.html#ga284141e36b8fe1399861648b50deeac2" title="Leadwort.Kuwahara.Runtime.Core.KuwaharaFilterType">KuwaharaFilterType</a>:</p>
 <ul>
-<li><b>Classic</b> - a blocky, uniform oil-paint look based on the traditional Kuwahara filter. Fast to render and great for a simplified, retro painterly style. Configured through ClassicKuwaharaSettings.</li>
-<li><b>Anisotropic</b> - a more advanced, edge-aware style where brush strokes dynamically bend and flow along the contours of your 3D models, producing more organic, hand-painted results. Configured through AnisotropicKuwaharaSettings.</li>
+<li><b>Classic</b> - a blocky, uniform oil-paint look based on the traditional Kuwahara filter. Fast to render and great for a simplified, retro painterly style. Configured through <a class="el" href="struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_classic_kuwahara_settings.html" title="Leadwort.Kuwahara.Runtime.Core.ClassicKuwaharaSettings">ClassicKuwaharaSettings</a>.</li>
+<li><b>Anisotropic</b> - a more advanced, edge-aware style where brush strokes dynamically bend and flow along the contours of your 3D models, producing more organic, hand-painted results. Configured through <a class="el" href="struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html" title="Leadwort.Kuwahara.Runtime.Core.AnisotropicKuwaharaSettings">AnisotropicKuwaharaSettings</a>.</li>
 </ul>
 <p>The Anisotropic style computes a <b>tensor field</b> (edge orientation and anisotropy) each frame, either via a compute shader (when supported by the platform) or a fragment-shader fallback, so the effect works consistently across a wide range of hardware.</p>
 <h2>Where it lives in your project</h2>
@@ -195,7 +219,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('kuwahara_intro
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="index.html">Leadwort Studios Documentation</a></li><li class="navelem"><a href="kuwahara_page.html">Kuwahara Filter</a></li>
+    <li class="navelem"><a href="index.html">Documentation</a></li><li class="navelem"><a href="kuwahara_page.html">Kuwahara Filter</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.17.0 </li>
   </ul>
 </div>

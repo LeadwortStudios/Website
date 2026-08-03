@@ -34,6 +34,30 @@ mermaid.initialize({ startOnLoad: true, theme: theme });
     DoxygenAwesomeDarkModeToggle.init()
 </script>
 <script type="text/javascript" src="image-compare.js"></script>
+<!-- Runtime NavTree Pruning Patch -->
+<script type="text/javascript">
+$(document).ready(function() {
+    var pruneRogueNodes = function() {
+        // Target only the immediate children of the main root sub-list
+        // Structure: #nav-tree-contents -> ul (Root) -> li (Project) -> ul (Main List) -> li (Nodes)
+        $("#nav-tree-contents > ul > li > ul > li").each(function() {
+            var nodeText = $(this).find('a').first().text().trim();
+            if (nodeText === "Changelog" || nodeText === "Getting Started") {
+                $(this).remove();
+            }
+        });
+    };
+    var targetTree = document.getElementById('nav-tree-contents');
+    if (targetTree) {
+        // Observe DOM modifications since Doxygen builds the tree asynchronously
+        var treeObserver = new MutationObserver(function(mutations) {
+            pruneRogueNodes();
+        });
+        treeObserver.observe(targetTree, { childList: true, subtree: true });
+        pruneRogueNodes();
+    }
+});
+</script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -43,6 +67,8 @@ mermaid.initialize({ startOnLoad: true, theme: theme });
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="tex_leadwortstudios_logo_brand.png"/></td>
   <td id="projectalign">
+   <div id="projectname">
+   </div>
   </td>
  </tr>
  </tbody>
@@ -126,13 +152,15 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('index.html',''
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Leadwort Studios Documentation </div></div>
+  <div class="headertitle"><div class="title">Documentation </div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md_mainpage"></a></p>
+<p><em><a class="el" href="namespace_leadwort.html">Leadwort</a> Studios TM 2026</em></p>
 <p>Welcome! Pick a effect below to see it's documentation:</p>
 <ul>
-<li><a class="el" href="kuwahara_page.html" title="Kuwahara Filter">Kuwahara Filter</a> </li>
+<li><a class="el" href="kuwahara_page.html" title="Kuwahara Filter">Kuwahara Filter</a></li>
+<li><a class="el" href="watercolor_page.html" title="Watercolor Image Processor Tool">Watercolor Image Processor Tool</a> </li>
 </ul>
 </div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>

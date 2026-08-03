@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['strokeshapemode_0',['StrokeShapeMode',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html#a903e478c13d30fa0b07ee19a6eb337ea',1,'Leadwort::Kuwahara::Runtime::Core::AnisotropicKuwaharaSettings']]],
-  ['strokeshapestrength_1',['StrokeShapeStrength',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html#aa60265874f376b9f6cf241ecd6d25a87',1,'Leadwort::Kuwahara::Runtime::Core::AnisotropicKuwaharaSettings']]],
-  ['strokesharpness_2',['StrokeSharpness',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_classic_kuwahara_settings.html#a45d7ea286b1fbac617943e50792fceca',1,'Leadwort::Kuwahara::Runtime::Core::ClassicKuwaharaSettings']]],
-  ['strokesmoothness_3',['StrokeSmoothness',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html#ab442bff055f50bec13d054e2138f40ed',1,'Leadwort::Kuwahara::Runtime::Core::AnisotropicKuwaharaSettings']]],
-  ['stylizationscale_4',['StylizationScale',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html#acdebff3b735c20d447214d2d89be24ca',1,'Leadwort::Kuwahara::Runtime::Core::AnisotropicKuwaharaSettings']]]
+  ['paintingintensity_0',['PaintingIntensity',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html#a4a7fe45cb3b8f37b1ba1e564df54c13c',1,'Leadwort::Kuwahara::Runtime::Core::AnisotropicKuwaharaSettings']]],
+  ['paperbeta_1',['PaperBeta',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#aea3639ccbc2934bf8b1a7cbe6f7104ab',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
+  ['papertexture_2',['PaperTexture',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#ab7566bdc76982ec08dc28fa7d6ea89ca',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
+  ['papertextureresolution_3',['PaperTextureResolution',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#a007616c08f9bcc718d9d7eff739778ad',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]]
 ];

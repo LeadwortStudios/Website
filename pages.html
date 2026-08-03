@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.17.0-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
@@ -5,7 +6,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.17.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Leadwort Kuwahara Filter: Related Pages</title>
+<title>Leadwort Studios</title>
+<link rel="icon" href="tex_icon_1024.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="codefolding.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
@@ -18,10 +20,44 @@
 <script type="text/javascript" src="search/search.js"></script>
 <script type="module">
 import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-const theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'default';
+const theme = 'default';
 mermaid.initialize({ startOnLoad: true, theme: theme });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="image-compare.js"></script>
+<!-- Runtime NavTree Pruning Patch -->
+<script type="text/javascript">
+$(document).ready(function() {
+    var pruneRogueNodes = function() {
+        // Target only the immediate children of the main root sub-list
+        // Structure: #nav-tree-contents -> ul (Root) -> li (Project) -> ul (Main List) -> li (Nodes)
+        $("#nav-tree-contents > ul > li > ul > li").each(function() {
+            var nodeText = $(this).find('a').first().text().trim();
+            if (nodeText === "Changelog" || nodeText === "Getting Started") {
+                $(this).remove();
+            }
+        });
+    };
+    var targetTree = document.getElementById('nav-tree-contents');
+    if (targetTree) {
+        // Observe DOM modifications since Doxygen builds the tree asynchronously
+        var treeObserver = new MutationObserver(function(mutations) {
+            pruneRogueNodes();
+        });
+        treeObserver.observe(targetTree, { childList: true, subtree: true });
+        pruneRogueNodes();
+    }
+});
+</script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -29,8 +65,9 @@ mermaid.initialize({ startOnLoad: true, theme: theme });
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="tex_leadwortstudios_logo_brand.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Leadwort Kuwahara Filter
+   <div id="projectname">
    </div>
   </td>
  </tr>
@@ -120,12 +157,15 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('pages.html',''
 <div class="contents">
 <div class="textblock">Here is a list of all related documentation pages:</div><div class="directory">
 <table class="directory">
-<tr id="row_0_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="md__r_e_a_d_m_e.html" target="_self">Doxygen Awesome</a></td><td class="desc"></td></tr>
+<tr id="row_0_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="md__d_1_2_leadwort_01_studios_2_leadwort-_kuwahara_2_assets_2com_8leadwortstudios_8kuwahara-filter_2_c_h_a_n_g_e_l_o_g.html" target="_self">Changelog</a></td><td class="desc"></td></tr>
+<tr id="row_1_" class="odd"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="md__d_1_2_leadwort_01_studios_2_leadwort_01_watercolor_2_assets_2com_8leadwortstudios_8watercolor_2_c_h_a_n_g_e_l_o_g.html" target="_self">Changelog</a></td><td class="desc"></td></tr>
+<tr id="row_2_" class="even"><td class="entry"><span style="width:16px;display:inline-block;">&#160;</span><a class="el" href="md__d_1_2_leadwort_01_studios_2_leadwort_01_watercolor_2_assets_2com_8leadwortstudios_8watercolo70c344847ec9d5ae4b4e95ca6de5c6db.html" target="_self">Getting Started</a></td><td class="desc"></td></tr>
 </table>
 </div><!-- directory -->
 </div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
+<!-- HTML footer for doxygen 1.17.0-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

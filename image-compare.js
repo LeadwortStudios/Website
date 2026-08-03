@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('load', function() {
     document.querySelectorAll('.img-compare-container').forEach(function(container) {
         const after = container.querySelector('.img-compare-after');
         const afterImg = after.querySelector('img');
@@ -10,17 +10,18 @@ document.addEventListener('DOMContentLoaded', function() {
             afterImg.style.width = containerWidth + 'px';
         }
 
-		function updatePosition(value) {
-			after.style.width = value + '%';
-			line.style.left = value + '%';
-			setWidths();
-		}
+        function updatePosition(value) {
+            after.style.width = value + '%';
+            line.style.left = value + '%';
+            setWidths();
+        }
 
         slider.addEventListener('input', function() {
             updatePosition(slider.value);
         });
 
         window.addEventListener('resize', setWidths);
+
         updatePosition(slider.value);
     });
 });

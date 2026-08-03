@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['filter_0',['Filter',['../kuwahara_page.html',1,'Kuwahara Filter'],['../kuwahara_intro.html#autotoc_md1',1,'Kuwahara Filter']]]
+  ['watercolor_20image_20processor_20tool_0',['Watercolor Image Processor Tool',['../watercolor_page.html',1,'index']]]
 ];

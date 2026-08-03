@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['strokeshapemode_0',['StrokeShapeMode',['../group__kuwahara__classes.html#gac99ef731efd2730dc54f150c159a5760',1,'Leadwort::Kuwahara::Runtime::Core']]]
+  ['morphologymode_0',['MorphologyMode',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#a7d56199a15475f6b19513fbfa294da55',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]]
 ];
