@@ -1,10 +1,6 @@
 var searchData=
 [
-  ['spatialradius_0',['SpatialRadius',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#a9414533fcbe3c1cd66489ae587825221',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
-  ['started_1',['Started',['../kuwahara_getting_started.html',1,'Getting Started'],['../watercolor_getting_started.html',1,'Getting Started']]],
-  ['strokeshapemode_2',['StrokeShapeMode',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html#a903e478c13d30fa0b07ee19a6eb337ea',1,'Leadwort.Kuwahara.Runtime.Core.AnisotropicKuwaharaSettings.StrokeShapeMode'],['../group__kuwahara__classes.html#gac99ef731efd2730dc54f150c159a5760',1,'Leadwort.Kuwahara.Runtime.Core.StrokeShapeMode']]],
-  ['strokeshapestrength_3',['StrokeShapeStrength',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html#aa60265874f376b9f6cf241ecd6d25a87',1,'Leadwort::Kuwahara::Runtime::Core::AnisotropicKuwaharaSettings']]],
-  ['strokesharpness_4',['StrokeSharpness',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_classic_kuwahara_settings.html#a45d7ea286b1fbac617943e50792fceca',1,'Leadwort::Kuwahara::Runtime::Core::ClassicKuwaharaSettings']]],
-  ['strokesmoothness_5',['StrokeSmoothness',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html#ab442bff055f50bec13d054e2138f40ed',1,'Leadwort::Kuwahara::Runtime::Core::AnisotropicKuwaharaSettings']]],
-  ['stylizationscale_6',['StylizationScale',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html#acdebff3b735c20d447214d2d89be24ca',1,'Leadwort::Kuwahara::Runtime::Core::AnisotropicKuwaharaSettings']]]
+  ['quantizationsharpness_0',['QuantizationSharpness',['../struct_leadwort_1_1_oil_paint_1_1_runtime_1_1_core_1_1_oil_paint_settings.html#a6b63de4e2ed1a3eb566210327b989901',1,'Leadwort::OilPaint::Runtime::Core::OilPaintSettings']]],
+  ['quantizationstrength_1',['QuantizationStrength',['../struct_leadwort_1_1_oil_paint_1_1_runtime_1_1_core_1_1_oil_paint_settings.html#af742e9efcb8cc7e4f6230167e26de4e5',1,'Leadwort::OilPaint::Runtime::Core::OilPaintSettings']]],
+  ['quarter_2',['Quarter',['../group__kuwahara__classes.html#gga081cebc5d2357f598cb5a944f460724eab25cde1e74f3d27f678c2e309e06102e',1,'Leadwort.Kuwahara.Runtime.Core.Quarter'],['../group__oilpaint__classes.html#gga6c20aa6425d1ee4f2b3e7e921d8c3989ab25cde1e74f3d27f678c2e309e06102e',1,'Leadwort.OilPaint.Runtime.Core.Quarter']]]
 ];

@@ -1,6 +1,15 @@
 var searchData=
 [
-  ['watercolor_20image_20processor_20tool_0',['Watercolor Image Processor Tool',['../watercolor_page.html',1,'index']]],
-  ['watercolorpreset_1',['WatercolorPreset',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html',1,'Leadwort::Watercolor::Runtime::Core']]],
-  ['wobblingstrength_2',['WobblingStrength',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#acafd150d5e3d63bf256e92076125f27d',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]]
+  ['saturation_0',['Saturation',['../struct_leadwort_1_1_oil_paint_1_1_runtime_1_1_core_1_1_oil_paint_settings.html#a6669a21efd3cd3e8202d8f3e38b30d97',1,'Leadwort::OilPaint::Runtime::Core::OilPaintSettings']]],
+  ['settings_1',['Settings',['../class_leadwort_1_1_oil_paint_1_1_runtime_1_1_built_in_1_1_oil_paint_post_process.html#ad427e5e3eec2ed810ab766337ae88b54',1,'Leadwort.OilPaint.Runtime.BuiltIn.OilPaintPostProcess.Settings'],['../class_leadwort_1_1_oil_paint_1_1_runtime_1_1_core_1_1_oil_paint_preset.html#ac29d4eee1999f95faf7d47dc9b28ecb2',1,'Leadwort.OilPaint.Runtime.Core.OilPaintPreset.Settings']]],
+  ['shininess_2',['Shininess',['../struct_leadwort_1_1_oil_paint_1_1_runtime_1_1_core_1_1_oil_paint_settings.html#a523c787cbfea371515e0beb2e21d6e7d',1,'Leadwort::OilPaint::Runtime::Core::OilPaintSettings']]],
+  ['spatialradius_3',['SpatialRadius',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#a9414533fcbe3c1cd66489ae587825221',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
+  ['specular_4',['Specular',['../struct_leadwort_1_1_oil_paint_1_1_runtime_1_1_core_1_1_oil_paint_settings.html#ab08849ceda9a01e57c45d485f4ee7b45',1,'Leadwort::OilPaint::Runtime::Core::OilPaintSettings']]],
+  ['started_5',['Started',['../kuwahara_getting_started.html',1,'Getting Started'],['../oilpaint_getting_started.html',1,'Getting Started'],['../watercolor_getting_started.html',1,'Getting Started']]],
+  ['strokelength_6',['StrokeLength',['../struct_leadwort_1_1_oil_paint_1_1_runtime_1_1_core_1_1_oil_paint_settings.html#ac551d449025ba0a4af60f8f517d4b7bf',1,'Leadwort::OilPaint::Runtime::Core::OilPaintSettings']]],
+  ['strokeshapemode_7',['StrokeShapeMode',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html#a903e478c13d30fa0b07ee19a6eb337ea',1,'Leadwort.Kuwahara.Runtime.Core.AnisotropicKuwaharaSettings.StrokeShapeMode'],['../group__kuwahara__classes.html#gac99ef731efd2730dc54f150c159a5760',1,'Leadwort.Kuwahara.Runtime.Core.StrokeShapeMode']]],
+  ['strokeshapestrength_8',['StrokeShapeStrength',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html#aa60265874f376b9f6cf241ecd6d25a87',1,'Leadwort::Kuwahara::Runtime::Core::AnisotropicKuwaharaSettings']]],
+  ['strokesharpness_9',['StrokeSharpness',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_classic_kuwahara_settings.html#a45d7ea286b1fbac617943e50792fceca',1,'Leadwort::Kuwahara::Runtime::Core::ClassicKuwaharaSettings']]],
+  ['strokesmoothness_10',['StrokeSmoothness',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html#ab442bff055f50bec13d054e2138f40ed',1,'Leadwort::Kuwahara::Runtime::Core::AnisotropicKuwaharaSettings']]],
+  ['stylizationscale_11',['StylizationScale',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html#acdebff3b735c20d447214d2d89be24ca',1,'Leadwort.Kuwahara.Runtime.Core.AnisotropicKuwaharaSettings.StylizationScale'],['../struct_leadwort_1_1_oil_paint_1_1_runtime_1_1_core_1_1_oil_paint_settings.html#ad48993a912da44ee37ed23f28634517b',1,'Leadwort.OilPaint.Runtime.Core.OilPaintSettings.StylizationScale']]]
 ];

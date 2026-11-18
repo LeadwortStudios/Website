@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['directionalstrength_0',['DirectionalStrength',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html#a52b63ea33eda595264e88fd39d8b2fd6',1,'Leadwort::Kuwahara::Runtime::Core::AnisotropicKuwaharaSettings']]],
+  ['directionalstrength_0',['DirectionalStrength',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html#a52b63ea33eda595264e88fd39d8b2fd6',1,'Leadwort.Kuwahara.Runtime.Core.AnisotropicKuwaharaSettings.DirectionalStrength'],['../struct_leadwort_1_1_oil_paint_1_1_runtime_1_1_core_1_1_oil_paint_settings.html#a3c726eff92fec31e27df59360f30b12f',1,'Leadwort.OilPaint.Runtime.Core.OilPaintSettings.DirectionalStrength']]],
   ['dispersionbeta_1',['DispersionBeta',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#ae7ae3a3e219495d211d726a14a2f4d55',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
   ['dispersionscale_2',['DispersionScale',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#a07989979aaa3f913a35708cb0eefe1ba',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
   ['dispersiontexture_3',['DispersionTexture',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#af80e4af290261f26ce3010249db26ab7',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
