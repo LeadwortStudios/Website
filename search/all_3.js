@@ -1,13 +1,20 @@
 var searchData=
 [
-  ['dilatate_0',['Dilatate',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#a7d56199a15475f6b19513fbfa294da55a10c381ed47cbc906a49e6546132636b9',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
-  ['directionalstrength_1',['DirectionalStrength',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html#a52b63ea33eda595264e88fd39d8b2fd6',1,'Leadwort.Kuwahara.Runtime.Core.AnisotropicKuwaharaSettings.DirectionalStrength'],['../struct_leadwort_1_1_oil_paint_1_1_runtime_1_1_core_1_1_oil_paint_settings.html#a3c726eff92fec31e27df59360f30b12f',1,'Leadwort.OilPaint.Runtime.Core.OilPaintSettings.DirectionalStrength']]],
-  ['dispersionbeta_2',['DispersionBeta',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#ae7ae3a3e219495d211d726a14a2f4d55',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
-  ['dispersionscale_3',['DispersionScale',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#a07989979aaa3f913a35708cb0eefe1ba',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
-  ['dispersiontexture_4',['DispersionTexture',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#af80e4af290261f26ce3010249db26ab7',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
-  ['documentation_5',['Documentation',['../index.html',1,'']]],
-  ['dots_6',['Dots',['../group__manga__classes.html#ggad011099740e2266c235c817d21589f00a4c72d232d1a1406e6c26251bbf6c3b25',1,'Leadwort::Manga::Runtime::Core']]],
-  ['drybrushenabled_7',['DryBrushEnabled',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#acf38f3dfaae76f7194f6c148cf5be419',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
-  ['drybrushsoftness_8',['DryBrushSoftness',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#ac9868e1972ea04895e56903cf46824a0',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
-  ['drybrushthreshold_9',['DryBrushThreshold',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#ae4e68b4582344c47ae9fc640d3584180',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]]
+  ['dashhiddendimensions_0',['DashHiddenDimensions',['../struct_leadwort_1_1_blueprint_1_1_runtime_1_1_core_1_1_blueprint_settings.html#ae3a29f4f0af6e791d220853be043c648',1,'Leadwort::Blueprint::Runtime::Core::BlueprintSettings']]],
+  ['decimals_1',['Decimals',['../struct_leadwort_1_1_blueprint_1_1_runtime_1_1_core_1_1_blueprint_settings.html#a73f2720df9028b723135c7af67d9f127',1,'Leadwort::Blueprint::Runtime::Core::BlueprintSettings']]],
+  ['depth_2',['Depth',['../class_leadwort_1_1_blueprint_1_1_runtime_1_1_core_1_1_blueprint_dimension.html#a6f031cc4ea7895e4a29dafed03cf005ba675056ad1441b6375b2c5abd48c27ef1',1,'Leadwort::Blueprint::Runtime::Core::BlueprintDimension']]],
+  ['depthsensitivity_3',['DepthSensitivity',['../struct_leadwort_1_1_blueprint_1_1_runtime_1_1_core_1_1_blueprint_settings.html#a2b495304c7a7c09c764f885745cbc8a2',1,'Leadwort::Blueprint::Runtime::Core::BlueprintSettings']]],
+  ['dilatate_4',['Dilatate',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#a7d56199a15475f6b19513fbfa294da55a10c381ed47cbc906a49e6546132636b9',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
+  ['dimensionlinewidth_5',['DimensionLineWidth',['../struct_leadwort_1_1_blueprint_1_1_runtime_1_1_core_1_1_blueprint_settings.html#a5591adb40e7ca7b76a58e4d416ab9439',1,'Leadwort::Blueprint::Runtime::Core::BlueprintSettings']]],
+  ['dimensionterminator_6',['DimensionTerminator',['../group__blueprint__classes.html#ga4c59d9bd0ff57056403691b161fd9a84',1,'Leadwort::Blueprint::Runtime::Core']]],
+  ['directionalstrength_7',['DirectionalStrength',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html#a52b63ea33eda595264e88fd39d8b2fd6',1,'Leadwort.Kuwahara.Runtime.Core.AnisotropicKuwaharaSettings.DirectionalStrength'],['../struct_leadwort_1_1_oil_paint_1_1_runtime_1_1_core_1_1_oil_paint_settings.html#a3c726eff92fec31e27df59360f30b12f',1,'Leadwort.OilPaint.Runtime.Core.OilPaintSettings.DirectionalStrength']]],
+  ['dispersionbeta_8',['DispersionBeta',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#ae7ae3a3e219495d211d726a14a2f4d55',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
+  ['dispersionscale_9',['DispersionScale',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#a07989979aaa3f913a35708cb0eefe1ba',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
+  ['dispersiontexture_10',['DispersionTexture',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#af80e4af290261f26ce3010249db26ab7',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
+  ['documentation_11',['Documentation',['../index.html',1,'']]],
+  ['dot_12',['Dot',['../group__blueprint__classes.html#gga4c59d9bd0ff57056403691b161fd9a84aaf6c6cf7a454b4ef4a850ac4d960a2cc',1,'Leadwort::Blueprint::Runtime::Core']]],
+  ['dots_13',['Dots',['../group__manga__classes.html#ggad011099740e2266c235c817d21589f00a4c72d232d1a1406e6c26251bbf6c3b25',1,'Leadwort::Manga::Runtime::Core']]],
+  ['drybrushenabled_14',['DryBrushEnabled',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#acf38f3dfaae76f7194f6c148cf5be419',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
+  ['drybrushsoftness_15',['DryBrushSoftness',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#ac9868e1972ea04895e56903cf46824a0',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
+  ['drybrushthreshold_16',['DryBrushThreshold',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#ae4e68b4582344c47ae9fc640d3584180',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]]
 ];

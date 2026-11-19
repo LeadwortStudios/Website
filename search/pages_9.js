@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['started_0',['Started',['../coloredpencil_getting_started.html',1,'Getting Started'],['../kuwahara_getting_started.html',1,'Getting Started'],['../manga_getting_started.html',1,'Getting Started'],['../oilpaint_getting_started.html',1,'Getting Started'],['../watercolor_getting_started.html',1,'Getting Started']]]
+  ['paint_20filter_0',['Oil Paint Filter',['../oilpaint_page.html',1,'index']]],
+  ['pencil_20filter_1',['Colored Pencil Filter',['../coloredpencil_page.html',1,'index']]],
+  ['processor_20tool_2',['Watercolor Image Processor Tool',['../watercolor_page.html',1,'index']]]
 ];

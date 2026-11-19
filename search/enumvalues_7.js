@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['manual_0',['Manual',['../group__kuwahara__classes.html#ggac99ef731efd2730dc54f150c159a5760ae1ba155a9f2e8c3be94020eef32a0301',1,'Leadwort::Kuwahara::Runtime::Core']]],
-  ['mixedbycolor_1',['MixedByColor',['../group__manga__classes.html#ggad011099740e2266c235c817d21589f00aff29c4aa6f3630513e2ecea4890a88c6',1,'Leadwort::Manga::Runtime::Core']]]
+  ['half_0',['Half',['../group__kuwahara__classes.html#gga0bd2e08155ecd6113709ec4edb43a9c2ac48615a1bc4197056d522af276aa5a85',1,'Leadwort.Kuwahara.Runtime.Core.Half'],['../group__kuwahara__classes.html#gga081cebc5d2357f598cb5a944f460724eac48615a1bc4197056d522af276aa5a85',1,'Leadwort.Kuwahara.Runtime.Core.Half'],['../group__oilpaint__classes.html#gga6c20aa6425d1ee4f2b3e7e921d8c3989ac48615a1bc4197056d522af276aa5a85',1,'Leadwort.OilPaint.Runtime.Core.Half'],['../group__manga__classes.html#gga7ff12d02b4ebf25a72d88dc349c5c142ac48615a1bc4197056d522af276aa5a85',1,'Leadwort.Manga.Runtime.Core.Half'],['../group__coloredpencil__classes.html#ggaced9cd6976f52160946eb1e3c984ed7fac48615a1bc4197056d522af276aa5a85',1,'Leadwort.ColoredPencil.Runtime.Core.Half']]],
+  ['height_1',['Height',['../class_leadwort_1_1_blueprint_1_1_runtime_1_1_core_1_1_blueprint_dimension.html#a6f031cc4ea7895e4a29dafed03cf005baeec6c4bdbd339edf8cbea68becb85244',1,'Leadwort::Blueprint::Runtime::Core::BlueprintDimension']]]
 ];

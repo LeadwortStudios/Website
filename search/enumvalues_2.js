@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['dilatate_0',['Dilatate',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#a7d56199a15475f6b19513fbfa294da55a10c381ed47cbc906a49e6546132636b9',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
-  ['dots_1',['Dots',['../group__manga__classes.html#ggad011099740e2266c235c817d21589f00a4c72d232d1a1406e6c26251bbf6c3b25',1,'Leadwort::Manga::Runtime::Core']]]
+  ['centimeters_0',['Centimeters',['../group__blueprint__classes.html#gga0bb04aeca494976376cfdaf823fdbd96a3040cc6624f5c309963dee141936b299',1,'Leadwort::Blueprint::Runtime::Core']]],
+  ['classic_1',['Classic',['../group__kuwahara__classes.html#gga284141e36b8fe1399861648b50deeac2ad35b51b639528d580362ca7042de6a0e',1,'Leadwort::Kuwahara::Runtime::Core']]],
+  ['crosshatch_2',['Crosshatch',['../group__manga__classes.html#ggad011099740e2266c235c817d21589f00aa81c614cd0a2ff900d2d74c45d5bbf15',1,'Leadwort::Manga::Runtime::Core']]]
 ];

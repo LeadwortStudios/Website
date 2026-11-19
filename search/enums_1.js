@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kuwaharafiltertype_0',['KuwaharaFilterType',['../group__kuwahara__classes.html#ga284141e36b8fe1399861648b50deeac2',1,'Leadwort::Kuwahara::Runtime::Core']]]
+  ['dimensionterminator_0',['DimensionTerminator',['../group__blueprint__classes.html#ga4c59d9bd0ff57056403691b161fd9a84',1,'Leadwort::Blueprint::Runtime::Core']]]
 ];

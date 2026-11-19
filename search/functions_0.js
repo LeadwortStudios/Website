@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['oilpaintsettingsgui_0',['OilPaintSettingsGUI',['../class_leadwort_1_1_oil_paint_1_1_editor_1_1_oil_paint_settings_g_u_i.html#ab8f0b4dfb328c6b7e8629e58cc1056d3',1,'Leadwort::OilPaint::Editor::OilPaintSettingsGUI']]]
+  ['trygetbounds_0',['TryGetBounds',['../class_leadwort_1_1_blueprint_1_1_runtime_1_1_core_1_1_blueprint_dimension.html#a8631bcdb5bcf7bd5dbeb928d14f215db',1,'Leadwort::Blueprint::Runtime::Core::BlueprintDimension']]],
+  ['trygetsegment_1',['TryGetSegment',['../class_leadwort_1_1_blueprint_1_1_runtime_1_1_core_1_1_blueprint_dimension.html#a76c47efe1436ff34018cf1d5019c9764',1,'Leadwort::Blueprint::Runtime::Core::BlueprintDimension']]]
 ];

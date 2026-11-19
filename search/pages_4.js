@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['image_20processor_20tool_0',['Watercolor Image Processor Tool',['../watercolor_page.html',1,'index']]],
-  ['introduction_1',['Introduction',['../coloredpencil_intro.html',1,'Introduction'],['../kuwahara_intro.html',1,'Introduction'],['../manga_intro.html',1,'Introduction'],['../oilpaint_intro.html',1,'Introduction'],['../watercolor_intro.html',1,'Introduction']]]
+  ['getting_20started_0',['Getting Started',['../blueprint_getting_started.html',1,'Getting Started'],['../coloredpencil_getting_started.html',1,'Getting Started'],['../kuwahara_getting_started.html',1,'Getting Started'],['../manga_getting_started.html',1,'Getting Started'],['../oilpaint_getting_started.html',1,'Getting Started'],['../watercolor_getting_started.html',1,'Getting Started']]]
 ];

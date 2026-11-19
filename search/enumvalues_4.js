@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['float_0',['Float',['../group__kuwahara__classes.html#gga0bd2e08155ecd6113709ec4edb43a9c2a22ae0e2b89e5e3d477f988cc36d3272b',1,'Leadwort::Kuwahara::Runtime::Core']]],
-  ['full_1',['Full',['../group__kuwahara__classes.html#gga081cebc5d2357f598cb5a944f460724eabbd47109890259c0127154db1af26c75',1,'Leadwort.Kuwahara.Runtime.Core.Full'],['../group__oilpaint__classes.html#gga6c20aa6425d1ee4f2b3e7e921d8c3989abbd47109890259c0127154db1af26c75',1,'Leadwort.OilPaint.Runtime.Core.Full'],['../group__manga__classes.html#gga7ff12d02b4ebf25a72d88dc349c5c142abbd47109890259c0127154db1af26c75',1,'Leadwort.Manga.Runtime.Core.Full'],['../group__coloredpencil__classes.html#ggaced9cd6976f52160946eb1e3c984ed7fabbd47109890259c0127154db1af26c75',1,'Leadwort.ColoredPencil.Runtime.Core.Full']]]
+  ['expand_0',['Expand',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#a7d56199a15475f6b19513fbfa294da55a8098b34f582537833b36b58273c3545b',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]]
 ];

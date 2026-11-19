@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tool_0',['Watercolor Image Processor Tool',['../watercolor_page.html',1,'index']]]
+  ['started_0',['Started',['../blueprint_getting_started.html',1,'Getting Started'],['../coloredpencil_getting_started.html',1,'Getting Started'],['../kuwahara_getting_started.html',1,'Getting Started'],['../manga_getting_started.html',1,'Getting Started'],['../oilpaint_getting_started.html',1,'Getting Started'],['../watercolor_getting_started.html',1,'Getting Started']]]
 ];
