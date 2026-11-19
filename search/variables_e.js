@@ -1,10 +1,15 @@
 var searchData=
 [
-  ['temporalstability_0',['TemporalStability',['../struct_leadwort_1_1_oil_paint_1_1_runtime_1_1_core_1_1_oil_paint_settings.html#a3604753205a15df965c681ac60240ac8',1,'Leadwort::OilPaint::Runtime::Core::OilPaintSettings']]],
+  ['temporalstability_0',['TemporalStability',['../struct_leadwort_1_1_oil_paint_1_1_runtime_1_1_core_1_1_oil_paint_settings.html#a3604753205a15df965c681ac60240ac8',1,'Leadwort.OilPaint.Runtime.Core.OilPaintSettings.TemporalStability'],['../struct_leadwort_1_1_manga_1_1_runtime_1_1_core_1_1_manga_settings.html#a318a1e624cb01939ab24b4558e6d46c6',1,'Leadwort.Manga.Runtime.Core.MangaSettings.TemporalStability']]],
   ['tensorfieldprecision_1',['TensorFieldPrecision',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html#aee3974d20839ff04995bac41bb1255ff',1,'Leadwort::Kuwahara::Runtime::Core::AnisotropicKuwaharaSettings']]],
   ['tensorfieldscale_2',['TensorFieldScale',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_anisotropic_kuwahara_settings.html#afc3e6af7461d4d834ad910fc37e6b7a9',1,'Leadwort::Kuwahara::Runtime::Core::AnisotropicKuwaharaSettings']]],
   ['texturescale_3',['TextureScale',['../struct_leadwort_1_1_kuwahara_1_1_runtime_1_1_core_1_1_classic_kuwahara_settings.html#a64822574ffca1aaa728ca4d47fbd0d6d',1,'Leadwort::Kuwahara::Runtime::Core::ClassicKuwaharaSettings']]],
-  ['turbulencebeta_4',['TurbulenceBeta',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#ae6352234e05d53196539d257813ea657',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
-  ['turbulencescale_5',['TurbulenceScale',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#a03ad17f21722f41af3f82f60ba957b4f',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
-  ['turbulencetexture_6',['TurbulenceTexture',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#aec7dce3953421ef809d1814d626f2db2',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]]
+  ['toneangle_4',['ToneAngle',['../struct_leadwort_1_1_manga_1_1_runtime_1_1_core_1_1_manga_settings.html#a089b78fb5c79940a344a649fb396247b',1,'Leadwort::Manga::Runtime::Core::MangaSettings']]],
+  ['tonelevels_5',['ToneLevels',['../struct_leadwort_1_1_manga_1_1_runtime_1_1_core_1_1_manga_settings.html#affd03d10e02748571d145fee4df72031',1,'Leadwort::Manga::Runtime::Core::MangaSettings']]],
+  ['tonesize_6',['ToneSize',['../struct_leadwort_1_1_manga_1_1_runtime_1_1_core_1_1_manga_settings.html#a40d05f09b7d1a64309fba9e6aff3ae63',1,'Leadwort::Manga::Runtime::Core::MangaSettings']]],
+  ['tonestrength_7',['ToneStrength',['../struct_leadwort_1_1_manga_1_1_runtime_1_1_core_1_1_manga_settings.html#a68193e8eae2379f8e28b657a6ade2748',1,'Leadwort::Manga::Runtime::Core::MangaSettings']]],
+  ['tonestyle_8',['ToneStyle',['../struct_leadwort_1_1_manga_1_1_runtime_1_1_core_1_1_manga_settings.html#a0871a2c97103f1acfe6758ca31a554c4',1,'Leadwort::Manga::Runtime::Core::MangaSettings']]],
+  ['turbulencebeta_9',['TurbulenceBeta',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#ae6352234e05d53196539d257813ea657',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
+  ['turbulencescale_10',['TurbulenceScale',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#a03ad17f21722f41af3f82f60ba957b4f',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
+  ['turbulencetexture_11',['TurbulenceTexture',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#aec7dce3953421ef809d1814d626f2db2',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]]
 ];

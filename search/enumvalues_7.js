@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['quarter_0',['Quarter',['../group__kuwahara__classes.html#gga081cebc5d2357f598cb5a944f460724eab25cde1e74f3d27f678c2e309e06102e',1,'Leadwort.Kuwahara.Runtime.Core.Quarter'],['../group__oilpaint__classes.html#gga6c20aa6425d1ee4f2b3e7e921d8c3989ab25cde1e74f3d27f678c2e309e06102e',1,'Leadwort.OilPaint.Runtime.Core.Quarter']]]
+  ['manual_0',['Manual',['../group__kuwahara__classes.html#ggac99ef731efd2730dc54f150c159a5760ae1ba155a9f2e8c3be94020eef32a0301',1,'Leadwort::Kuwahara::Runtime::Core']]],
+  ['mixedbycolor_1',['MixedByColor',['../group__manga__classes.html#ggad011099740e2266c235c817d21589f00aff29c4aa6f3630513e2ecea4890a88c6',1,'Leadwort::Manga::Runtime::Core']]]
 ];

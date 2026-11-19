@@ -6,7 +6,8 @@ var searchData=
   ['dispersionscale_3',['DispersionScale',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#a07989979aaa3f913a35708cb0eefe1ba',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
   ['dispersiontexture_4',['DispersionTexture',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#af80e4af290261f26ce3010249db26ab7',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
   ['documentation_5',['Documentation',['../index.html',1,'']]],
-  ['drybrushenabled_6',['DryBrushEnabled',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#acf38f3dfaae76f7194f6c148cf5be419',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
-  ['drybrushsoftness_7',['DryBrushSoftness',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#ac9868e1972ea04895e56903cf46824a0',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
-  ['drybrushthreshold_8',['DryBrushThreshold',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#ae4e68b4582344c47ae9fc640d3584180',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]]
+  ['dots_6',['Dots',['../group__manga__classes.html#ggad011099740e2266c235c817d21589f00a4c72d232d1a1406e6c26251bbf6c3b25',1,'Leadwort::Manga::Runtime::Core']]],
+  ['drybrushenabled_7',['DryBrushEnabled',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#acf38f3dfaae76f7194f6c148cf5be419',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
+  ['drybrushsoftness_8',['DryBrushSoftness',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#ac9868e1972ea04895e56903cf46824a0',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]],
+  ['drybrushthreshold_9',['DryBrushThreshold',['../class_leadwort_1_1_watercolor_1_1_runtime_1_1_core_1_1_watercolor_preset.html#ae4e68b4582344c47ae9fc640d3584180',1,'Leadwort::Watercolor::Runtime::Core::WatercolorPreset']]]
 ];

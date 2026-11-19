@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['manual_0',['Manual',['../group__kuwahara__classes.html#ggac99ef731efd2730dc54f150c159a5760ae1ba155a9f2e8c3be94020eef32a0301',1,'Leadwort::Kuwahara::Runtime::Core']]]
+  ['lines_0',['Lines',['../group__manga__classes.html#ggad011099740e2266c235c817d21589f00aa0b0293a2db49f5f93c15a62e095c819',1,'Leadwort::Manga::Runtime::Core']]]
 ];
