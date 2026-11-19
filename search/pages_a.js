@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['started_0',['Started',['../blueprint_getting_started.html',1,'Getting Started'],['../coloredpencil_getting_started.html',1,'Getting Started'],['../kuwahara_getting_started.html',1,'Getting Started'],['../manga_getting_started.html',1,'Getting Started'],['../oilpaint_getting_started.html',1,'Getting Started'],['../watercolor_getting_started.html',1,'Getting Started']]]
+  ['started_0',['Started',['../blueprint_getting_started.html',1,'Getting Started'],['../coloredpencil_getting_started.html',1,'Getting Started'],['../diorama_getting_started.html',1,'Getting Started'],['../kuwahara_getting_started.html',1,'Getting Started'],['../manga_getting_started.html',1,'Getting Started'],['../oilpaint_getting_started.html',1,'Getting Started'],['../watercolor_getting_started.html',1,'Getting Started']]]
 ];

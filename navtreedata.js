@@ -31,7 +31,8 @@ var NAVTREE =
     [ "Changelog", "md__d_1_2projects_2_shaders_2_leadwort-_oil_paint_2_assets_2_leadwort_01_oil_01_paint_01_filter_2_c_h_a_n_g_e_l_o_g.html", null ],
     [ "Changelog", "md__d_1_2projects_2_shaders_2_leadwort-_manga_2_assets_2_leadwort_01_manga_01_filter_2_c_h_a_n_g_e_l_o_g.html", null ],
     [ "Changelog", "md__d_1_2projects_2_shaders_2_leadwort-_colored_pencil_2_assets_2_leadwort_01_colored_01_pencil_01_filter_2_c_h_a_n_g_e_l_o_g.html", null ],
-    [ "Changelog", "md__d_1_2projects_2_shaders_2_leadwort-_blueprint_2_assets_2_leadwort_01_blueprint_01_filter_2_c_h_a_n_g_e_l_o_g.html", null ]
+    [ "Changelog", "md__d_1_2projects_2_shaders_2_leadwort-_blueprint_2_assets_2_leadwort_01_blueprint_01_filter_2_c_h_a_n_g_e_l_o_g.html", null ],
+    [ "Changelog", "md__d_1_2projects_2_shaders_2_leadwort-_diorama_2_assets_2_leadwort_01_diorama_01_filter_2_c_h_a_n_g_e_l_o_g.html", null ]
   ] ]
 ];
 
