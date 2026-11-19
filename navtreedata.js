@@ -29,13 +29,14 @@ var NAVTREE =
     [ "Changelog", "md__d_1_2archive_2dev_2_leadwort_01_studios_2_leadwort-_kuwahara_2_assets_2_leadwort_01_kuwahara_01_filter_2_c_h_a_n_g_e_l_o_g.html", null ],
     [ "Changelog", "md__d_1_2archive_2dev_2_leadwort_01_studios_2_leadwort_01_watercolor_2_assets_2_leadwort_01_wateb4339aa0d5439fa0201e923755297450.html", null ],
     [ "Changelog", "md__d_1_2projects_2_shaders_2_leadwort-_oil_paint_2_assets_2_leadwort_01_oil_01_paint_01_filter_2_c_h_a_n_g_e_l_o_g.html", null ],
-    [ "Changelog", "md__d_1_2projects_2_shaders_2_leadwort-_manga_2_assets_2_leadwort_01_manga_01_filter_2_c_h_a_n_g_e_l_o_g.html", null ]
+    [ "Changelog", "md__d_1_2projects_2_shaders_2_leadwort-_manga_2_assets_2_leadwort_01_manga_01_filter_2_c_h_a_n_g_e_l_o_g.html", null ],
+    [ "Changelog", "md__d_1_2projects_2_shaders_2_leadwort-_colored_pencil_2_assets_2_leadwort_01_colored_01_pencil_01_filter_2_c_h_a_n_g_e_l_o_g.html", null ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"coloredpencil_changelog.html"
 ];
 
 const SYNCONMSG = 'click to disable panel synchronization';

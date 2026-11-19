@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['started_0',['Started',['../kuwahara_getting_started.html',1,'Getting Started'],['../manga_getting_started.html',1,'Getting Started'],['../oilpaint_getting_started.html',1,'Getting Started'],['../watercolor_getting_started.html',1,'Getting Started']]]
+  ['started_0',['Started',['../coloredpencil_getting_started.html',1,'Getting Started'],['../kuwahara_getting_started.html',1,'Getting Started'],['../manga_getting_started.html',1,'Getting Started'],['../oilpaint_getting_started.html',1,'Getting Started'],['../watercolor_getting_started.html',1,'Getting Started']]]
 ];
